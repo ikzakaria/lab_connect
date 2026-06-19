@@ -4,19 +4,19 @@ import { createRequestObject } from '../utils/helpers';
 const DataContext = createContext(null);
 
 const seedRequests = () => {
-  const r1 = createRequestObject('Jean Moreau', 45, 'M', ['hemogramme', 'glycemie'], 1, 'Dr. Martin Dupont');
+  const r1 = createRequestObject('Tahir Hakimi', 45, 'M', ['hemogramme', 'glycemie'], 1, 'Dr. Youssef El Azouzi');
   r1.status = 'collected';
   r1.collectedAt = new Date(Date.now() - 3600000).toISOString();
-  r1.collectedBy = 'Inf. Sophie Bernard';
+  r1.collectedBy = 'Inf. Hannan Boussaha';
 
-  const r2 = createRequestObject('Claire Fontaine', 32, 'F', ['lipidogramme', 'crp'], 1, 'Dr. Martin Dupont');
+  const r2 = createRequestObject('Amine Aloui', 32, 'F', ['lipidogramme', 'crp'], 1, 'Dr. Youssef El Azouzi');
   r2.status = 'picked_up';
   r2.collectedAt = new Date(Date.now() - 7200000).toISOString();
-  r2.collectedBy = 'Inf. Sophie Bernard';
+  r2.collectedBy = 'Inf. Hannan Boussaha';
   r2.pickedUpAt = new Date(Date.now() - 1800000).toISOString();
-  r2.pickedUpBy = 'Pierre Durand';
+  r2.pickedUpBy = 'Hamza Karmi';
 
-  const r3 = createRequestObject('Robert Klein', 58, 'M', ['bilan_hepatique', 'bilan_renal', 'fer'], 1, 'Dr. Martin Dupont');
+  const r3 = createRequestObject('Ahmed Ferhaoui', 58, 'M', ['bilan_hepatique', 'bilan_renal', 'fer'], 1, 'Dr. Youssef El Azouzi');
 
   return [r1, r2, r3];
 };

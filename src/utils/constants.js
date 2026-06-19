@@ -79,9 +79,9 @@ export const ROLE_NAMES = {
 };
 
 export const SEED_USERS = [
-  { id: 1, email: 'doctor@labconnect.fr', password: 'doctor', role: 'doctor', name: 'Dr. Martin Dupont', clinic: 'Cabinet Médical Central' },
-  { id: 2, email: 'nurse@labconnect.fr', password: 'nurse', role: 'nurse', name: 'Inf. Sophie Bernard', clinic: 'Cabinet Médical Central' },
-  { id: 3, email: 'agent@labconnect.fr', password: 'agent', role: 'agent', name: 'Pierre Durand', company: 'LabLogistics' },
-  { id: 4, email: 'lab@labconnect.fr', password: 'lab', role: 'lab', name: 'Tech. Marie Lefebvre', lab: 'Laboratoire BioAnalyse' },
+  { id: 1, email: 'doctor@labconnect.fr', password: 'doctor', role: 'doctor', name: 'Dr. Youssef El Azouzi', clinic: 'Cabinet Médical Central' },
+  { id: 2, email: 'nurse@labconnect.fr', password: 'nurse', role: 'nurse', name: 'Inf. Hannan Boussaha', clinic: 'Cabinet Médical Central' },
+  { id: 3, email: 'agent@labconnect.fr', password: 'agent', role: 'agent', name: 'Hamza Karmi', company: 'LabLogistics' },
+  { id: 4, email: 'lab@labconnect.fr', password: 'lab', role: 'lab', name: 'Tech. Mariam Randi', lab: 'Laboratoire BioAnalyse' },
   { id: 99, email: 'admin@labconnect.fr', password: 'admin1234', role: 'admin', name: 'Administrateur' }
 ];
